@@ -18,7 +18,7 @@ if [ ! -d "${DIR}" ]; then
 	touch ${DIR}/app/templates/index.html
 	touch ${DIR}/config.py
 	touch ${DIR}/manage.py
-	touch ${DIR}/requirenments.txt
+	touch ${DIR}/requirements.txt
 	touch ${DIR}/run.py
     ls -lR ${DIR}
 else
